@@ -421,6 +421,7 @@ except FileNotFoundError:
 except PermissionError:
     print("dosya değiştirme izniniz yok.")
 '''
+
 import random #sayı tahmin et. sayı doğru yeri yanlış vs desin..> eğer girdğin sayı pc dekkine eşit değilse ve x sayısının içindekileri sayıların konumlarını y sayısıyla karşılatır
 x = str(random.randint(100, 500))
 y = str(input("tahmin : "))
